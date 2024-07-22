@@ -1,0 +1,222 @@
+
+
+@import url("./reset.css"); 
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+
+body{
+    line-height: 1.5;
+    font-family: "Bruno Ace SC", serif;
+    font-size: 24px;
+
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+
+img{
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+
+.container{
+    width: 1296px;
+    margin: 0 auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.align-items-start{
+    align-items: start;
+}
+
+.justifly-content-end{
+    justify-content: flex-end;
+}
+
+.justifly-content-space-between{
+    justify-content: space-between;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.flex-direction-column{
+    flex-direction: column;
+}
+
+.h1{
+    font-size: 128px;
+}
+
+.h2{
+    font-size: 64px;
+}
+
+.fs-1{
+    font-size: 32px;
+}
+
+.fs-2{
+    font-size: 24px;
+}
+
+.fs-3{
+    font-size: 20px;
+}
+
+.fs-4{
+    font-size: 16px;
+}
+
+.text-primary{
+    color: #00FFA3;
+}
+
+.mr-5{
+    margin-right: 20px;
+}
+
+.mr-6{
+  margin-right: 24px;  
+}
+
+.mb-6{
+    margin-bottom: 24px;
+}
+
+.mg-7{
+    margin-bottom: 28px;
+}
+
+.mb-8{
+    margin-bottom: 32px;
+}
+
+.mb-9{
+    margin-bottom: 36px;
+}
+
+.button{
+    padding: 12px 24px;
+    border-radius: 32px;
+}
+
+.button-light{
+    background: #FFFFFF;
+    color: #000000;
+}
+
+.button-dark{
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.header{
+    background-color: #000;
+    color: #D1D1D1;
+    padding: 40px 0;
+}
+
+.nav{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner{
+    background-color: #000;
+    color: #FFFFFF;
+}
+
+.banner-title-strong{
+    display: block;
+    text-align: right;
+}
+
+.intro{
+    background-image: url("../img/background-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    padding: 160px 0;
+}
+
+.intro-desc{
+    width: 526px;
+}
+
+.about{
+    padding: 160px 0;
+}
+
+.about-list{
+    width: 636px;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.about-list li{
+    width: calc(50% - 12px);
+    border: #E3E3E3 solid 1px;
+    padding: 16px;
+    box-shadow: 4px 4px 4px 0 rgba(0,0,0,0.08);
+}
+
+.about-desc{
+    width: 526px;
+}
+
+.contact{
+    background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+    padding: 96px 0;
+    color: #FFFFFF;
+}
+
+.contact-title{
+    width: 50%;
+}
+
+.contact-buttom-list{
+    width: 50%;
+}
+
+.contact-buttom{
+    border-radius: 40px;
+}
+
+.contact-buttom:hover{
+    box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9);
+    transition: 0.5s;
+}
+
+.project{
+    padding: 160px 0;
+}
+
+.project-title{
+    width: 746px;
+    margin-left: auto;
+}
+
+.footer{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+}
